@@ -5,5 +5,6 @@ export default defineConfig(({ command }) => {
   return {
     plugins: [react()],
     base: command === 'build' ? '/weather/' : '/',
+    base: '/weather/'
   };
 });
